@@ -8,7 +8,7 @@ Installation
 
 To install the Python filters:
 
-    cd timj_image
+    cd jam_image_filter
     sudo pip install -r requirements.txt
 
 To install *glitch*:
