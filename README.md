@@ -20,7 +20,7 @@ To install *glitch*:
 Usage
 -----
 
-The Python filters all reside in the `timj_filter` folder. To invoke:
+The Python filters all reside in the `jam_image_filter` folder. To invoke:
 
     python FILTER.py INPUT_PATH OUTPUT_PATH
 
