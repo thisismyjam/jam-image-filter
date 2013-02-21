@@ -1,0 +1,5 @@
+PIL
+sh
+scipy
+numpy
+-e git+https://github.com/jakul/aggdraw.git#egg=aggdraw

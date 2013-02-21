@@ -1,0 +1,9 @@
+build
+timj_image_effect.egg-info
+*~
+*.egg
+*dSYM*
+
+src/glitch/glitch
+
+*.pyc
