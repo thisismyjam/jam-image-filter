@@ -41,10 +41,10 @@ There are some useful functions in util.py, but you don't have to use them.
 Examples
 --------
 
-![Halftone](https://raw.github.com/thisismyjam/image-filter/master/examples/halftone.jpg)
+![Halftone](https://raw.github.com/thisismyjam/jam-image-filter/master/examples/halftone.jpg)
 
-![PXL](https://raw.github.com/thisismyjam/image-filter/master/examples/pxl.jpg)
+![PXL](https://raw.github.com/thisismyjam/jam-image-filter/master/examples/pxl.jpg)
 
-![Glitch](https://raw.github.com/thisismyjam/image-filter/master/examples/glitch.jpg)
+![Glitch](https://raw.github.com/thisismyjam/jam-image-filter/master/examples/glitch.jpg)
 
 For more examples look inside the `examples` folder.
