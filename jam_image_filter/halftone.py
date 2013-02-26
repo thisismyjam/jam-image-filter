@@ -60,4 +60,4 @@ def halftone(original, radius=3, border=21, black_and_white=False):
 if __name__ == '__main__':
     image = Image.open(sys.argv[1])
     image = halftone(image)
-    image.save(sys.argv[2], quality=96)
+    image.save(sys.argv[2], quality=90)

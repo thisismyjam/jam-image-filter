@@ -62,4 +62,4 @@ def glitch(im, min_pixelation=3, max_pixelation=18, max_attempts=20,
 if __name__ == '__main__':
     image = Image.open(sys.argv[1])
     image = glitch(image)
-    image.save(sys.argv[2], quality=96)
+    image.save(sys.argv[2], quality=90)

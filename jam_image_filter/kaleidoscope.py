@@ -47,4 +47,4 @@ def kaleidoscope(original, max_width=400, max_height=400, darken=True):
 if __name__ == '__main__':
     image = Image.open(sys.argv[1])
     image = kaleidoscope(image)
-    image.save(sys.argv[2], quality=96)
+    image.save(sys.argv[2], quality=90)

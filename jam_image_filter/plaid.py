@@ -30,4 +30,4 @@ def plaid(image):
 if __name__ == '__main__':
     im = Image.open(sys.argv[1])
     im = plaid(im)
-    im.save(sys.argv[2], quality=96)
+    im.save(sys.argv[2], quality=90)

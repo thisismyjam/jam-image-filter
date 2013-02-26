@@ -30,4 +30,4 @@ def bokeh(image):
 if __name__ == '__main__':
     im = Image.open(sys.argv[1])
     im = bokeh(im)
-    im.save(sys.argv[2], quality=96)
+    im.save(sys.argv[2], quality=90)

@@ -229,4 +229,4 @@ if __name__ == '__main__':
     height = util.HEIGHT + tile_size- (util.HEIGHT % tile_size)
     image = util.resize_jam_background(image, width, height)
     image = pxl(image)
-    image.save(sys.argv[2], quality=96)
+    image.save(sys.argv[2], quality=90)

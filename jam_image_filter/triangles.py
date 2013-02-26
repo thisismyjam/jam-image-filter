@@ -81,4 +81,4 @@ def triangles(original, n=30, size=150, width=700,
 if __name__ == '__main__':
     image = Image.open(sys.argv[1])
     image = triangles(image)
-    image.save(sys.argv[2], quality=96)
+    image.save(sys.argv[2], quality=90)
