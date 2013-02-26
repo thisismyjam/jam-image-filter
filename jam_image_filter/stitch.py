@@ -8,7 +8,7 @@ from ImageEnhance import Contrast
 import util
 import random
 
-def stich(im, pixelation=12):
+def stitch(im, pixelation=12):
     im = im.convert('RGB')
 
     im = util.resize_jam_background(im)
@@ -30,7 +30,7 @@ def stich(im, pixelation=12):
     draw = aggdraw.Draw(new)
     width, height = new.size
 
-    # draw stiches
+    # draw stitches
     for y in xrange(0, height, pixelation):
         for x in xrange(0, width, pixelation):
             pen = aggdraw.Pen(pix[x / pixelation, y / pixelation], 2)
@@ -42,5 +42,5 @@ def stich(im, pixelation=12):
 
 if __name__ == '__main__':
     image = Image.open(sys.argv[1])
-    image = stich(image)
+    image = stitch(image)
     image.save(sys.argv[2], quality=90)
