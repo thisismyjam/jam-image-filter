@@ -12,7 +12,7 @@ def bokeh(image):
     colours = util.get_dominant_colours(image, 8)
     colours = util.order_colours_by_brightness(colours)[2:7]
     colour = random.choice(colours)
-    colour = util.modify_hsv(colour, s=lambda s: 1, v=lambda v: 1)
+    colour = util.modify_hsv(colour, s=lambda s: 255, v=lambda v: 255)
     light = (255, 244, 180)
 
     layer = Image.open(os.path.dirname(os.path.abspath(__file__)) + '/' +

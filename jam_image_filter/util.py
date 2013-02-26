@@ -198,7 +198,7 @@ def rgb_to_hsv(rgb):
 
 def hsv_to_rgb(hsv):
     hsv = map(lambda x: x / 255.0, hsv)
-    r, g, b = colorsys.hls_to_rgb(*hsv)
+    r, g, b = colorsys.hsv_to_rgb(*hsv)
     return tuple(map(lambda x: int(x * 255.0), [r, g, b]))
 
 def modify_hsv(rgb, h=None, s=None, v=None):
