@@ -3,6 +3,8 @@ This Is My Jam Image Filters
 
 A set of image filters crafted and curated by This Is My Jam. These are currently live on www.thisismyjam.com/jam/style, where they are used to automatically generate backgrounds from jam images.
 
+There's also a [blog post](http://thisismyjam.tumblr.com/post/44061678763/how-we-built-music-looks-awesome-how-you-can-join) we wrote about how and why we created these filters.
+
 Installation
 ------------
 
